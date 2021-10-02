@@ -1,10 +1,8 @@
 package com.lezurex;
 
-public class BooleanChecker {
+public class BooleanUtils {
 
-    public static void main(String[] args) {
-        System.out.println(isTrue(true));
-    }
+    private BooleanUtils() {}
 
     public static boolean isTrue(boolean input) {
         String stringifiedBoolean = Boolean.toString(input);
@@ -41,6 +39,10 @@ public class BooleanChecker {
             return Boolean.parseBoolean(new String(new byte[] { 0x66, 0x61, 0x6C, 0x73, 0x65 }));
         }
         return Boolean.parseBoolean(new String(new byte[] { 0x66, 0x61, 0x6C, 0x73, 0x65 }));
+    }
+
+    public static boolean inverse(boolean input) {
+        return !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!input;
     }
 
 }
