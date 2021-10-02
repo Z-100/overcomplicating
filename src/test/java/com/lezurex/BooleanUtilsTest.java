@@ -19,9 +19,9 @@ public class BooleanUtilsTest {
     }
 
     @Test
-    public void testInverse() {
-        assertTrue(BooleanUtils.inverse(false));
-        assertFalse(BooleanUtils.inverse(true));
+    public void testInvert() {
+        assertTrue(BooleanUtils.invert(false));
+        assertFalse(BooleanUtils.invert(true));
     }
 
 }
