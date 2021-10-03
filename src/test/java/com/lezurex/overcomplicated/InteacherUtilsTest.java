@@ -1,7 +1,5 @@
 package com.lezurex.overcomplicated;
 
-import com.lezurex.overcomplicated.InteacherUtils;
-
 import junit.framework.TestCase;
 
 public class InteacherUtilsTest extends TestCase {
