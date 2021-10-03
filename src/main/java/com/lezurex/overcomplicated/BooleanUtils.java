@@ -1,3 +1,7 @@
+/**
+* @author Lezurex
+*/
+
 package com.lezurex.overcomplicated;
 
 /**
