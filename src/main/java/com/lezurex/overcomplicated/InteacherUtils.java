@@ -1,3 +1,7 @@
+/**
+* @author Z-100
+*/
+
 package com.lezurex.overcomplicated;
 
 public class InteacherUtils {
