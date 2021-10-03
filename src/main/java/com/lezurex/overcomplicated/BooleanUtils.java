@@ -1,4 +1,4 @@
-package com.lezurex;
+package com.lezurex.overcomplicated;
 
 /**
  * Some methods for doing easy tasks in a more stylish way
