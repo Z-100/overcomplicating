@@ -1,7 +1,14 @@
+/**
+ * @author Z-100
+ */
 package com.lezurex.overcomplicated;
 
 public class HelloWorld {
 
+    /**
+     * Are you tired of writing Hello World!'s?
+     * Then this method is the right thing for you!
+     */
     public static void helloWorld() {
 
         byte[] helloWorldArray = new byte[12];
