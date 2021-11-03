@@ -1,9 +1,10 @@
 package com.lezurex.overcomplicated;
 
-import junit.framework.TestCase;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class NegativeIntegerTest extends TestCase {
+import org.junit.jupiter.api.Test;
+
+public class NegativeIntegerTest {
 
     @Test
     public void testGetNegativeInteger() {

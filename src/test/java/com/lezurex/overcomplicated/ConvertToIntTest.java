@@ -1,9 +1,12 @@
 package com.lezurex.overcomplicated;
 
-import junit.framework.TestCase;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class ConvertToIntTest extends TestCase {
+import org.junit.jupiter.api.Test;
 
+public class ConvertToIntTest {
+
+    @Test
     public void testToInt() {
         assertEquals(420, ConvertToInt.toInt(420));
     }

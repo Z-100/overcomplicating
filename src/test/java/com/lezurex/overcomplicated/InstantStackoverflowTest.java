@@ -1,9 +1,10 @@
 package com.lezurex.overcomplicated;
 
-import junit.framework.TestCase;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class InstantStackoverflowTest extends TestCase {
+import org.junit.jupiter.api.Test;
+
+public class InstantStackoverflowTest {
 
     @Test
     public void testExec() {

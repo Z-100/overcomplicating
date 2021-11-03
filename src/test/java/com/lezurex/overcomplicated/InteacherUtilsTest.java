@@ -1,9 +1,12 @@
 package com.lezurex.overcomplicated;
 
-import junit.framework.TestCase;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class InteacherUtilsTest extends TestCase {
+import org.junit.jupiter.api.Test;
 
+public class InteacherUtilsTest {
+
+    @Test
     public void testInteacherUtils() {
         assertEquals(69, InteacherUtils.inteacher(69));
     }

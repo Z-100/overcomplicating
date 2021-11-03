@@ -1,17 +1,19 @@
 package com.lezurex.overcomplicated;
 
-import org.junit.Assert;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.api.Test;
 
 public class IsNotNumberOneTest {
 
     @Test
     public void isNumberOneIsWorking() {
-        Assert.assertTrue(IsNotNumberOne.isNotNumberOne(2));
+        assertTrue(IsNotNumberOne.isNotNumberOne(2));
     }
 
     @Test
     public void isNumberOneIsAlsoWorking() {
-        Assert.assertFalse(IsNotNumberOne.isNotNumberOne(1));
+        assertFalse(IsNotNumberOne.isNotNumberOne(1));
     }
 }

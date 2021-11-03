@@ -1,13 +1,14 @@
 package com.lezurex.overcomplicated;
 
-import junit.framework.TestCase;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class IsIntegerNegativeTest extends TestCase {
+import org.junit.jupiter.api.Test;
+
+public class IsIntegerNegativeTest {
 
     @Test
     public void testIsNegative() {
-        assertTrue(String.valueOf(true), IsIntegerNegative.
+        assertTrue(IsIntegerNegative.
                 isNegative(-5));
     }
 }

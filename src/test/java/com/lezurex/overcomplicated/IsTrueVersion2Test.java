@@ -1,9 +1,10 @@
 package com.lezurex.overcomplicated;
 
-import junit.framework.TestCase;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class IsTrueVersion2Test extends TestCase {
+import org.junit.jupiter.api.Test;
+
+public class IsTrueVersion2Test {
 
     @Test
     public void testIsTrueQuestionMark() {
