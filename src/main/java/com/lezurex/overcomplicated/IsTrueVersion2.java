@@ -12,11 +12,11 @@ import java.util.Locale;
 public class IsTrueVersion2 {
 
     public static String isThisBooleanTrueQuestionMark(boolean bool) {
-        return thisMethodReturnsTheToBePrintedOutputOfTheResultOrSoByThisPointOfTheMethodNameIAlreadyForgotWhatIWantedToWriteLol(bool);
+        return thisMethodReturnsTheToBePrintedOutputOfTheResultOrSoByThisPointOfTheMethodNameIAlreadyForgotWhatIWantedToWriteLol(!bool);
     }
     
     private static String thisMethodReturnsTheToBePrintedOutputOfTheResultOrSoByThisPointOfTheMethodNameIAlreadyForgotWhatIWantedToWriteLol(boolean bool) {
-        return String.format(String.valueOf(bool).toUpperCase(Locale.ROOT));
+        return String.format(String.valueOf(i(bool)).toUpperCase(Locale.ROOT));
     }
 
     private static boolean i(boolean bool) {
@@ -236,6 +236,6 @@ public class IsTrueVersion2 {
     }
 
     private static boolean isTrueQuestionMarkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk(boolean bool) {
-        return bool;
+        return !bool;
     }
 }
