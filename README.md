@@ -1,8 +1,8 @@
-# Overcomplicating
+# 🤡 Overcomplicating
 
 Simple tasks in Java, just solved unnecessary complicated (and with bad code). This repository cleary shows HOW NOT TO DO IT!
 
-## Testing
+## 🧪 Testing
 
 Although this repo clearly shows how not to do things, we want to automatically test our code with unit tests. This also allows for easy testing while coding without needing to create a playground class.
 
@@ -24,7 +24,7 @@ If all tests ran successfully, a message like this should appear:
 [INFO] ------------------------------------------------------------------------
 ```
 
-## Javadoc
+## 📝 Javadoc
 
 Documenting the code is also an important thing in development. You don't have to comment everything, but a brief description of your methods would be nice.
 
@@ -40,6 +40,6 @@ You can then open the Javadocs in your preferred browser:
 firefox target/site/apidocs/index.html
 ```
 
-## Contributing
+## 👥 Contributing
 
 Contributions are always welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
