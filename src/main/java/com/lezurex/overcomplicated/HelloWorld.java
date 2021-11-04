@@ -5,6 +5,8 @@ package com.lezurex.overcomplicated;
 
 public class HelloWorld {
 
+    private HelloWorld() {}
+
     /**
      * Are you tired of writing Hello World!'s?
      * Then this method is the right thing for you!

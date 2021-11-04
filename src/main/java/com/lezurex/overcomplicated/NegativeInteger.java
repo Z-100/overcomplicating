@@ -6,6 +6,8 @@ package com.lezurex.overcomplicated;
 
 public class NegativeInteger {
 
+    private NegativeInteger() {}
+
     /**
      * Method used to invert an integer. But bad
      *

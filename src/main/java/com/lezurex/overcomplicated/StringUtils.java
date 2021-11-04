@@ -5,8 +5,7 @@ package com.lezurex.overcomplicated;
 
 public class StringUtils {
 
-    private StringUtils() {
-    }
+    private StringUtils() {}
 
     /**
      * Checks if the provided object is a String

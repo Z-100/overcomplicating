@@ -2,6 +2,8 @@ package com.lezurex.overcomplicated;
 
 public class OneToTen {
 
+    private OneToTen() {}
+
     /**
      * Use this easy method if you have a Java programming assignment where you need to count from 1 to 10. ez.
      * Prints to System.out

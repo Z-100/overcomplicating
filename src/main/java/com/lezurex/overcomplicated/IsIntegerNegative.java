@@ -6,6 +6,8 @@ package com.lezurex.overcomplicated;
 
 public class IsIntegerNegative {
 
+    private IsIntegerNegative() {}
+
     /**
      * Method used to check if an integer is negative
      *

@@ -11,6 +11,8 @@ import java.util.Locale;
  */
 public class IsTrueVersion2 {
 
+    private IsTrueVersion2() {}
+
     public static String isThisBooleanTrueQuestionMark(boolean bool) {
         return thisMethodReturnsTheToBePrintedOutputOfTheResultOrSoByThisPointOfTheMethodNameIAlreadyForgotWhatIWantedToWriteLol(!bool);
     }

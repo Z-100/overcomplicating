@@ -6,6 +6,8 @@ package com.lezurex.overcomplicated;
 
 public class ConvertToInt {
 
+    private ConvertToInt() {}
+
     /**
      * Method used to convert an int to an int
      *

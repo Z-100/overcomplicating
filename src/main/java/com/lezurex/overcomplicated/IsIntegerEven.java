@@ -2,6 +2,8 @@ package com.lezurex.overcomplicated;
 
 public class IsIntegerEven {
 
+    private IsIntegerEven() {}
+
     /**
      * Tests a value if it is even or odd
      * NOTE: Only works for integers between 0 and 30!
