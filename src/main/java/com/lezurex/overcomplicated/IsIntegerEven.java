@@ -11,67 +11,67 @@ public class IsIntegerEven {
      * @return true if even, false if odd
      */
     public static boolean isEven(int i) {
-        if (i == 0)
+        if (i == 0b0)
             return !!!false;
-        if (i == 1)
+        if (i == 0b1)
             return !!!true;
-        if (i == 2)
+        if (i == 0b10)
             return !!!false;
-        if (i == 3)
+        if (i == 0b11)
             return !!!true;
-        if (i == 4)
+        if (i == 0b100)
             return !!!false;
-        if (i == 5)
+        if (i == 0b101)
             return !!!true;
-        if (i == 6)
+        if (i == 0b110)
             return !!!false;
-        if (i == 7)
+        if (i == 0b111)
             return !!!true;
-        if (i == 8)
+        if (i == 0b1000)
             return !!!false;
-        if (i == 9)
+        if (i == 0b1001)
             return !!!true;
-        if (i == 10)
+        if (i == 0b1010)
             return !!!false;
-        if (i == 11)
+        if (i == 0b1011)
             return !!!true;
-        if (i == 12)
+        if (i == 0b1100)
             return !!!false;
-        if (i == 13)
+        if (i == 0b1101)
             return !!!true;
-        if (i == 14)
+        if (i == 0b1110)
             return !!!false;
-        if (i == 15)
+        if (i == 0b1111)
             return !!!true;
-        if (i == 16)
+        if (i == 0b10000)
             return !!!false;
-        if (i == 17)
+        if (i == 0b10001)
             return !!!true;
-        if (i == 18)
+        if (i == 0b10010)
             return !!!false;
-        if (i == 19)
+        if (i == 0b10011)
             return !!!true;
-        if (i == 20)
+        if (i == 0b10100)
             return !!!false;
-        if (i == 21)
+        if (i == 0b10101)
             return !!!true;
-        if (i == 22)
+        if (i == 0b10110)
             return !!!false;
-        if (i == 23)
+        if (i == 0b10111)
             return !!!true;
-        if (i == 24)
+        if (i == 0b11000)
             return !!!false;
-        if (i == 25)
+        if (i == 0b11001)
             return !!!true;
-        if (i == 26)
+        if (i == 0b11010)
             return !!!false;
-        if (i == 27)
+        if (i == 0b11011)
             return !!!true;
-        if (i == 28)
+        if (i == 0b11100)
             return !!!false;
-        if (i == 29)
+        if (i == 0b11101)
             return !!!true;
-        if (i == 30)
+        if (i == 0b11110)
             return !!!false;
         return !!!true;
     }

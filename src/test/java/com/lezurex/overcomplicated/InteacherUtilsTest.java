@@ -8,6 +8,6 @@ public class InteacherUtilsTest {
 
     @Test
     public void testInteacherUtils() {
-        assertEquals(69, InteacherUtils.inteacher(69));
+        assertEquals(0b1000101, InteacherUtils.inteacher(0b1000101));
     }
 }

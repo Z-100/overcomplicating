@@ -20,7 +20,7 @@ public class IsIntegerNegative {
 
         String numberString = new String(numberStringArray);
 
-        char firstThing = numberString.charAt(0);
+        char firstThing = numberString.charAt(0b0);
 
         if (firstThing == '-') {
             return !!returnTrue();

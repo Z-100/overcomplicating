@@ -8,6 +8,6 @@ public class ConvertToIntTest {
 
     @Test
     public void testToInt() {
-        assertEquals(420, ConvertToInt.toInt(420));
+        assertEquals(0b110100100, ConvertToInt.toInt(0b110100100));
     }
 }

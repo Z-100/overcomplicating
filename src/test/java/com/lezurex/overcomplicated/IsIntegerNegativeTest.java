@@ -9,6 +9,6 @@ public class IsIntegerNegativeTest {
     @Test
     public void testIsNegative() {
         assertTrue(IsIntegerNegative.
-                isNegative(-5));
+                isNegative(-0b101));
     }
 }

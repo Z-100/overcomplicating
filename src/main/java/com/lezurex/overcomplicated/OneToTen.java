@@ -13,7 +13,7 @@ public class OneToTen {
             if (i == 0b1) {
                 System.out.println(0b1);
             }
-            if (i == 0x10) {
+            if (i == 0b10) {
                 System.out.println(0b10);
             }
             if (i == 0b11) {

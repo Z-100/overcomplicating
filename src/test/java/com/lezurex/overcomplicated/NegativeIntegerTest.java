@@ -8,7 +8,7 @@ public class NegativeIntegerTest {
 
     @Test
     public void testGetNegativeInteger() {
-        assertEquals(-5, NegativeInteger.getNegativeInteger(5));
+        assertEquals(-0b101, NegativeInteger.getNegativeInteger(0b101));
     }
 
 }

@@ -11,11 +11,11 @@ class InkrementInteacherTest {
 
 	@Test
 	void plusOne() {
-		assertEquals(2, InkrementInteacher.plusOne(1));
+		assertEquals(0b10, InkrementInteacher.plusOne(0b1));
 	}
 
 	@Test
 	void plusAny() {
-		assertEquals(2, InkrementInteacher.plusAny(0, 2));
+		assertEquals(0b10, InkrementInteacher.plusAny(0b0, 0b10));
 	}
 }

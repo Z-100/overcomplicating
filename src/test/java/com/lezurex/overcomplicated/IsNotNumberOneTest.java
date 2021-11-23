@@ -9,11 +9,11 @@ public class IsNotNumberOneTest {
 
     @Test
     public void isNumberOneIsWorking() {
-        assertTrue(IsNotNumberOne.isNotNumberOne(2));
+        assertTrue(IsNotNumberOne.isNotNumberOne(0b10));
     }
 
     @Test
     public void isNumberOneIsAlsoWorking() {
-        assertFalse(IsNotNumberOne.isNotNumberOne(1));
+        assertFalse(IsNotNumberOne.isNotNumberOne(0b1));
     }
 }

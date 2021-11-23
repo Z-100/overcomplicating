@@ -15,9 +15,9 @@ public class NegativeInteger {
      * @return The output integer, BUT IT'S NEGATIVE
      */
     public static int getNegativeInteger(int input) {
-        int output = 0;
+        int output = 0b0;
 
-        for (int i = 0; i < input; i++) {
+        for (int i = 0b0; i < input; i++) {
             output--;
         }
 

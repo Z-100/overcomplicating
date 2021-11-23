@@ -9,12 +9,12 @@ public class IsIntegerEvenTest {
     
     @Test
     public void testIsEven() {
-        assertTrue(isEven(10));
+        assertTrue(isEven(0b1010));
     }
 
     @Test
     public void testIsOdd() {
-        assertTrue(!isEven(11));
+        assertTrue(!isEven(0b1011));
     }
 
 }
