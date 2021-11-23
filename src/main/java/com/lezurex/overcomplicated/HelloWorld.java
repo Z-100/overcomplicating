@@ -15,18 +15,18 @@ public class HelloWorld {
 
         byte[] helloWorldArray = new byte[12];
 
-        helloWorldArray[0] = addLetterH();
-        helloWorldArray[1] = addLetterE();
-        helloWorldArray[2] = addLetterL();
-        helloWorldArray[3] = addLetterL();
-        helloWorldArray[4] = addLetterO();
-        helloWorldArray[5] = SPACE();
-        helloWorldArray[6] = addLetterW();
-        helloWorldArray[7] = addLetterO();
-        helloWorldArray[8] = addLetterR();
-        helloWorldArray[9] = addLetterL();
-        helloWorldArray[10] = addLetterD();
-        helloWorldArray[11] = EGSKLEMATION_MARK();
+        helloWorldArray[0b0] = addLetterH();
+        helloWorldArray[0b1] = addLetterE();
+        helloWorldArray[0b10] = addLetterL();
+        helloWorldArray[0b11] = addLetterL();
+        helloWorldArray[0b100] = addLetterO();
+        helloWorldArray[0b101] = SPACE();
+        helloWorldArray[0b110] = addLetterW();
+        helloWorldArray[0b111] = addLetterO();
+        helloWorldArray[0b1000] = addLetterR();
+        helloWorldArray[0b1001] = addLetterL();
+        helloWorldArray[0b1010] = addLetterD();
+        helloWorldArray[0b1011] = EGSKLEMATION_MARK();
 
         String helloWorldString = new String(helloWorldArray);
 
@@ -34,38 +34,38 @@ public class HelloWorld {
     }
 
     private static byte addLetterH() {
-        return 0x48;
+        return 0b1001000;
     }
 
     private static byte addLetterE() {
-        return 0x65;
+        return 0b1100101;
     }
 
     private static byte addLetterL() {
-        return 0x6c;
+        return 0b1101100;
     }
 
     private static byte addLetterO() {
-        return 0x6f;
+        return 0b1101111;
     }
 
     private static byte SPACE() {
-        return 0x20;
+        return 0b100000;
     }
 
     private static byte addLetterW() {
-        return 0x57;
+        return 0b1010111;
     }
 
     private static byte addLetterR() {
-        return 0x72;
+        return 0b1110010;
     }
 
     private static byte addLetterD() {
-        return 0x64;
+        return 0b1100100;
     }
 
     private static byte EGSKLEMATION_MARK() {
-        return 0x21;
+        return 0b100001;
     }
 }

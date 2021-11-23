@@ -16,12 +16,12 @@ public class StringUtils {
     public static boolean isString(Object possiblySomeStringOrNotQuestionMark) {
         try {
             byte[] bytes = (byte[]) ((String) possiblySomeStringOrNotQuestionMark).getBytes();
-            if (bytes.length > 0x0) {
-                return Boolean.parseBoolean(new String(new byte[] { 0x74, 0x72, 0x75, 0x65 }));
+            if (bytes.length > 0b0) {
+                return Boolean.parseBoolean(new String(new byte[] { 0b1110100, 0b1110010, 0b1110101, 0b1100101 }));
             }
-            return Boolean.parseBoolean(new String(new byte[] { 0x66, 0x61, 0x6C, 0x73, 0x65 }));
+            return Boolean.parseBoolean(new String(new byte[] { 0b1100110, 0b1100001, 0b1101100, 0b1110011, 0b1100101 }));
         } catch (ClassCastException e) {
-            return Boolean.parseBoolean(new String(new byte[] { 0x66, 0x61, 0x6C, 0x73, 0x65 }));
+            return Boolean.parseBoolean(new String(new byte[] { 0b1100110, 0b1100001, 0b1101100, 0b1110011, 0b1100101 }));
         }
     }
 

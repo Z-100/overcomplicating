@@ -9,36 +9,36 @@ public class OneToTen {
      * Prints to System.out
      */
     public static void countFromOneToTen() {
-        for (int i = 1; i <= 10; i++) {
-            if (i == 0x1) {
-                System.out.println(0x1);
+        for (int i = 0b1; i <= 0b1010; i++) {
+            if (i == 0b1) {
+                System.out.println(0b1);
             }
-            if (i == 0x2) {
-                System.out.println(0x2);
+            if (i == 0x10) {
+                System.out.println(0b10);
             }
-            if (i == 0x3) {
-                System.out.println(0x3);
+            if (i == 0b11) {
+                System.out.println(0b11);
             }
-            if (i == 0x4) {
-                System.out.println(0x4);
+            if (i == 0b100) {
+                System.out.println(0b100);
             }
-            if (i == 0x5) {
-                System.out.println(0x5);
+            if (i == 0b101) {
+                System.out.println(0b101);
             }
-            if (i == 0x6) {
-                System.out.println(0x6);
+            if (i == 0b110) {
+                System.out.println(0b110);
             }
-            if (i == 0x7) {
-                System.out.println(0x7);
+            if (i == 0b111) {
+                System.out.println(0b111);
             }
-            if (i == 0x8) {
-                System.out.println(0x8);
+            if (i == 0b1000) {
+                System.out.println(0b1000);
             }
-            if (i == 0xA) {
-                System.out.println(0xA);
+            if (i == 0b1001) {
+                System.out.println(0b1001);
             }
-            if (i == 0xB) {
-                System.out.println(0xB);
+            if (i == 0b1010) {
+                System.out.println(0b1010);
             }
         }
     }
