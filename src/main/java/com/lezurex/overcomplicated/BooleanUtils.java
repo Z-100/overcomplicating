@@ -27,14 +27,8 @@ public class BooleanUtils {
                         return Boolean
                                 .parseBoolean(new String(new byte[] { 0b1110100, 0b1110010, 0b1110101, 0b1100101 }));
                     }
-                    return Boolean.parseBoolean(
-                            new String(new byte[] { 0b1100110, 0b1100001, 0b1101100, 0b1110011, 0b1100101 }));
                 }
-                return Boolean
-                        .parseBoolean(new String(new byte[] { 0b1100110, 0b1100001, 0b1101100, 0b1110011, 0b1100101 }));
             }
-            return Boolean
-                    .parseBoolean(new String(new byte[] { 0b1100110, 0b1100001, 0b1101100, 0b1110011, 0b1100101 }));
         }
         return Boolean.parseBoolean(new String(new byte[] { 0b1100110, 0b1100001, 0b1101100, 0b1110011, 0b1100101 }));
     }
@@ -55,17 +49,9 @@ public class BooleanUtils {
                             return Boolean.parseBoolean(
                                     new String(new byte[] { 0b1110100, 0b1110010, 0b1110101, 0b1100101 }));
                         }
-                        return Boolean.parseBoolean(
-                                new String(new byte[] { 0b1100110, 0b1100001, 0b1101100, 0b1110011, 0b1100101 }));
                     }
-                    return Boolean.parseBoolean(
-                            new String(new byte[] { 0b1100110, 0b1100001, 0b1101100, 0b1110011, 0b1100101 }));
                 }
-                return Boolean
-                        .parseBoolean(new String(new byte[] { 0b1100110, 0b1100001, 0b1101100, 0b1110011, 0b1100101 }));
             }
-            return Boolean
-                    .parseBoolean(new String(new byte[] { 0b1100110, 0b1100001, 0b1101100, 0b1110011, 0b1100101 }));
         }
         return Boolean.parseBoolean(new String(new byte[] { 0b1100110, 0b1100001, 0b1101100, 0b1110011, 0b1100101 }));
     }

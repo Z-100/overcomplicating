@@ -15,6 +15,7 @@ public class StringUtilsTest {
     public void testIsString() {
         assertTrue(StringUtils.isString(new String(new byte[] { 0b1101000, 0b1100101, 0b1101100, 0b1101111 })));
         assertFalse(StringUtils.isString(new Scanner(new BufferedReader(new InputStreamReader(System.in)))));
+        assertFalse(StringUtils.isString(new String()));
     }
 
 }

@@ -8,7 +8,7 @@ public class AdvancedStackOverflowErrorTest {
     @Test
     public void testMessage() {
         try {
-
+            throw new AdvancedStackOverflowError();
         } catch(AdvancedStackOverflowError e) {
             assertEquals("Upgrade your PC if u get this Error", e.getMessage(), "Exception message does not match expected message");
         }

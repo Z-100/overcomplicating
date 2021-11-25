@@ -6,6 +6,8 @@ package com.lezurex.overcomplicated;
  */
 public class InkrementInteacher {
 
+	private InkrementInteacher() {}
+
 	/**
 	* Method used to increment the given Integer by one
 	* @params i The given Integer
