@@ -22,3 +22,8 @@ jobs:
         cache: maven
     - name: Test with Maven
       run: mvn -B test --file pom.xml
+    - name: Upload coverage report
+      uses: actions/upload-artifact@v2
+      with:
+        name: code-coverage
+        path: target/site/jacoco/*
