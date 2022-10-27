@@ -1,5 +1,7 @@
 package com.lezurex.overcomplicated;
 
+import com.lezurex.overcomplicated.annotations.VeryUseful;
+
 import java.util.*;
 
 /**
@@ -7,6 +9,7 @@ import java.util.*;
  * @since 1.0
  * @version 1.0
  */
+@VeryUseful(theBecause = "Words are very useful")
 public final class StringUtils {
 
     private StringUtils() {}

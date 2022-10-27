@@ -4,6 +4,9 @@
 
 package com.lezurex.overcomplicated;
 
+import com.lezurex.overcomplicated.annotations.VeryUseful;
+
+@VeryUseful(theBecause = "Why not?")
 public class InteacherUtils {
 
         private InteacherUtils() {

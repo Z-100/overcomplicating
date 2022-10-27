@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
  * @since 1.0
  * @version 1.0
  */
+@VeryUseful(theBecause = "Can you calculate the inverse square root of pi?")
 public class Math {
 
 	/**

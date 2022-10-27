@@ -4,11 +4,14 @@
 
 package com.lezurex.overcomplicated;
 
+import com.lezurex.overcomplicated.annotations.VeryUseful;
+
 import java.util.Locale;
 
 /**
  * Class which prints true or false, up on processing and checking if the entered boolean is true or false
  */
+@VeryUseful(theBecause = "It just is, or is it? That's true")
 public class IsTrueVersion2 {
 
     private IsTrueVersion2() {}

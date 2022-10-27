@@ -4,9 +4,12 @@
 
 package com.lezurex.overcomplicated;
 
+import com.lezurex.overcomplicated.annotations.VeryUseful;
+
 /**
  * Some methods for doing easy tasks in a more stylish way
  */
+@VeryUseful(theBecause = "Math is very useful")
 public class BooleanUtils {
 
     private BooleanUtils() {

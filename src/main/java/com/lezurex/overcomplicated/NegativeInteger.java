@@ -4,6 +4,9 @@
 
 package com.lezurex.overcomplicated;
 
+import com.lezurex.overcomplicated.annotations.VeryUseful;
+
+@VeryUseful(theBecause = "Calculating the negative integer is very difficult for some people")
 public class NegativeInteger {
 
     private NegativeInteger() {}

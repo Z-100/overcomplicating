@@ -4,6 +4,9 @@
 
 package com.lezurex.overcomplicated;
 
+import com.lezurex.overcomplicated.annotations.VeryUseful;
+
+@VeryUseful(theBecause = "Not everyone knows what hyphens mean")
 public class IsIntegerNegative {
 
     private IsIntegerNegative() {}

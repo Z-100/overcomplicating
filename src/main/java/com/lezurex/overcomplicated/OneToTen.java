@@ -1,5 +1,8 @@
 package com.lezurex.overcomplicated;
 
+import com.lezurex.overcomplicated.annotations.VeryUseful;
+
+@VeryUseful(theBecause = "Not everyone can count to 10")
 public class OneToTen {
 
     private OneToTen() {}
