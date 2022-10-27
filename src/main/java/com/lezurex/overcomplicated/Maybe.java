@@ -24,7 +24,7 @@ public class Maybe {
   }
 
   private static int random() {
-    return (int) java.lang.Math.round(Math.random());
+    return (int) java.lang.Math.round(java.lang.Math.random());
   }
 
   private static boolean returnNotFalse() {

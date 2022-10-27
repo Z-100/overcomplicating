@@ -19,7 +19,7 @@ public class HelloWorldTest {
     @Test
     public void helloWorld() {
         HelloWorld.helloWorld();
-        assertEquals("Hello World!\n", outputStreamCaptor.toString());
+        assertEquals("Hello World!", outputStreamCaptor.toString().trim());
     }
 
 }
