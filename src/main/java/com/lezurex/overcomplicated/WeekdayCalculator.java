@@ -1,5 +1,7 @@
 package com.lezurex.overcomplicated;
 
+import com.lezurex.overcomplicated.annotations.VeryUseful;
+
 import java.util.Calendar;
 import java.util.Date;
 
@@ -7,6 +9,7 @@ import java.util.Date;
  * @author VoxCrafterLP
  * Class used for getting the current weekday
  */
+@VeryUseful(theBecause = "Programmers haven't seen the sun in days.")
 public class WeekdayCalculator {
 
     private WeekdayCalculator() {}
