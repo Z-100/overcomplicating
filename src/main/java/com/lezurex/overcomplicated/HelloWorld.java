@@ -3,6 +3,9 @@
  */
 package com.lezurex.overcomplicated;
 
+import com.lezurex.overcomplicated.annotations.VeryUseful;
+
+@VeryUseful(theBecause = "Math is very useful")
 public class HelloWorld {
 
     private HelloWorld() {}

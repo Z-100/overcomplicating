@@ -1,8 +1,11 @@
 package com.lezurex.overcomplicated;
 
+import com.lezurex.overcomplicated.annotations.VeryUseful;
+
 /**
  * @author Z-100 Did you ever want to just *maybe* decide something? Well here's the solution
  */
+@VeryUseful(theBecause = "Maybe it's good, maybe it's not.")
 public class Maybe {
 
   private Maybe() {}
@@ -21,7 +24,7 @@ public class Maybe {
   }
 
   private static int random() {
-    return (int) Math.round(Math.random());
+    return (int) java.lang.Math.round(java.lang.Math.random());
   }
 
   private static boolean returnNotFalse() {

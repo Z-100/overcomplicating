@@ -1,9 +1,12 @@
 package com.lezurex.overcomplicated;
 
+import com.lezurex.overcomplicated.annotations.VeryUseful;
+
 /**
  * @author z-100
  * Class used for incrementing an Integer
  */
+@VeryUseful(theBecause = "Math is very useful")
 public class InkrementInteacher {
 
 	private InkrementInteacher() {}

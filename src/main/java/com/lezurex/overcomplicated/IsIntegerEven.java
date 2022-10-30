@@ -1,5 +1,8 @@
 package com.lezurex.overcomplicated;
 
+import com.lezurex.overcomplicated.annotations.VeryUseful;
+
+@VeryUseful(theBecause = "Even or odd? That's the question")
 public class IsIntegerEven {
 
     private IsIntegerEven() {}

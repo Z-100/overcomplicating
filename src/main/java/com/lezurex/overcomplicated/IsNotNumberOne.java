@@ -4,6 +4,9 @@
 
 package com.lezurex.overcomplicated;
 
+import com.lezurex.overcomplicated.annotations.VeryUseful;
+
+@VeryUseful(theBecause = "Are you sure it's not the number one?")
 public class IsNotNumberOne {
 
     private IsNotNumberOne() {}
